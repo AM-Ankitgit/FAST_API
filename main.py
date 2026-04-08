@@ -33,6 +33,7 @@ def get_name(stud_id:int):
     return name
 
 
+
 @app.post("/addStudent")
 def add_student(stud: NewStudent):
     if not student:  # Check if database is empty
